@@ -101,7 +101,6 @@ module.exports = {
                 semi: false
             }
         ],
-        "semi": [2, "never"],
         "jsx-a11y/href-no-hash": "off",
         "jsx-a11y/alt-text": "off",
         "jsx-a11y/anchor-is-valid": [
