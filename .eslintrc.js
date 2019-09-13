@@ -77,6 +77,7 @@ module.exports = {
             }
         ],
         radix: 0,
+        "semi": [2, "never"],
         "no-shadow": [
             2,
             {
