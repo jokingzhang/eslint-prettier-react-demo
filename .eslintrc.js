@@ -77,6 +77,7 @@ module.exports = {
             }
         ],
         radix: 0,
+        "semi": [2, "always"],
         "no-shadow": [
             2,
             {
@@ -84,21 +85,12 @@ module.exports = {
                 allow: ["resolve", "reject", "done", "next", "err", "error"]
             }
         ],
-        quotes: [
-            2,
-            "single",
-            {
-                avoidEscape: true,
-                allowTemplateLiterals: true
-            }
-        ],
         "prettier/prettier": [
             "error",
             {
-                trailingComma: "es5",
-                singleQuote: true,
-                printWidth: 80,
-                semi: false
+                "printWidth": 120, //一行的字符数，如果超过会进行换行，默认为80
+                "tabWidth": 2, //一个tab代表几个空格数，默认为2
+                "semi": true,
             }
         ],
         "jsx-a11y/href-no-hash": "off",
